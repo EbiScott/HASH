@@ -62,13 +62,13 @@ sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 
 ## SecLists
 
-sudo apt install seclists
+```sudo apt install seclists```
 
 ## Installation
 
 Clone the repository:
 ```
-git clone https://github.com/yourusername/HaSherr.git
+git clone https://github.com/EbiScott/HASH.git
 cd HaSherr
 ```
 
@@ -96,7 +96,7 @@ You will be presented with a menu to:
 
 ## Wordlists
 
-HaSherr does not include wordlists.
+HASH does not include wordlists.
 
 It expects wordlists to be available in:
 
@@ -114,6 +114,7 @@ It expects wordlists to be available in:
 You may also provide a custom full path when prompted.
 
 ### Notes on Hash Cracking
+
 
 Hashes are not decoded, they are cracked by comparison
 
